@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-54-164-40-66.compute-1.amazonaws.com:5432/d2b3d4ujpogsma
-    username: prbktvabfvryaf
-    password: 4b62c6f6266801c86323c577cc33c90b0ce5ebba7fe8fbea48eec3842d82efcd
+    url: jdbc:postgresql://localhost:5432/movie_db
+    username: postgres
+    password: server
   jpa:
     hibernate:
       ddl-auto: update
